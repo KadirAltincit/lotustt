@@ -1,0 +1,245 @@
+#topbar~#header[data-transparent="true"]+#slider, #topbar~#header[data-transparent="true"]+.fullscreen, #topbar~#header[data-transparent="true"]+.halfscreen, #topbar~#header[data-transparent="true"]+#google-map {
+    top: -142px;
+    margin-bottom: -120px;
+}
+
+.main__about--df{
+    display: flex;
+    justify-content: center;
+}
+
+.main__width {
+    display: flex;
+    width: 80%;
+    gap: 60px;
+}
+
+.about__description {
+    display: flex;
+    align-items: center;
+}
+
+.main__services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main__services--description {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    gap: 50px;
+}
+
+.main__blog--description {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(4, 2fr);
+    gap: 50px;
+    width: 80%;
+}
+
+.footer__df {
+    display: flex;
+    justify-content: center;
+}
+
+.footer__wd {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: center;
+}
+
+.footer__about{
+    width: 35%;
+    display: flex;
+    align-items: center;
+}
+
+.footer__pages{
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    width: 50%;
+    gap: 50px;
+}
+
+.footer__icon--df {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.icons__mr {
+    margin: 90px 0 20px;
+}
+
+.text-box:hover {
+    background: none;
+}
+
+.services__df {
+    display: flex;
+    align-items: center;
+}
+
+
+/*----------------------------------------------------Hakkımızda----------------------------------------------------*/
+
+#topbar~#header[data-transparent="true"]+#slider, #topbar~#header[data-transparent="true"]+.fullscreen, #topbar~#header[data-transparent="true"]+.halfscreen, #topbar~#header[data-transparent="true"]+#google-map {
+    top: -123px;
+    margin-bottom: -120px;
+}
+
+.about__topbar--dark {
+    background-color: black;
+    border-bottom: 1px solid rgba(144, 144, 144, 0.25);
+}
+
+.about__title {
+    padding: 15px !important;
+    background: #cccc !important;
+}
+
+.about__header--white{
+    background: #fff !important;
+}
+
+.header__menu--color{
+    color: black !important;
+}
+
+.text-lg, .text-lg span, .text-lg span span {
+    font-size: 5rem;
+    line-height: 100px;
+    letter-spacing: -.02em;
+    font-weight: 500;
+    color: #000 !important;
+}
+
+.about__df{
+    display: flex;
+    justify-content: center;
+}
+
+.about__container{
+    width: 80%;
+}
+
+.about__img {
+    display: flex;
+    justify-content: center;
+}
+
+.pages__about--description {
+    margin-top: 60px;
+}
+
+/*----------------------------------------------------Ürünler----------------------------------------------------*/
+
+.products__df {
+    padding: 0 !important;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.products__container{
+    width: 80%;
+}
+
+.products__gr{
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    gap: 50px;
+}
+
+/*----------------------------------------------------Galeri----------------------------------------------------*/
+
+.gallery__df{
+    display: flex;
+    justify-content: center;
+}
+
+.gallery__container{
+    width: 80%;
+}
+
+.gallery__gr{
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    gap: 50px;
+}
+
+.gallery__img--wd {
+    width: 100%;
+    opacity: none !important;
+    cursor: pointer;
+}
+
+/*----------------------------------------------------Blog----------------------------------------------------*/
+
+.blog__df{
+    display: flex;
+    justify-content: center;
+}
+
+.blog__container{
+    width: 80%;
+}
+
+.blog__gr{
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    gap: 50px;
+}
+
+/*----------------------------------------------------Blog Detay----------------------------------------------------*/
+
+.blogs__df{
+    display: flex;
+    justify-content: center;
+}
+
+.blogs__container{
+    width: 80%;
+}
+
+.other-blogs__df{
+    display: flex;
+    flex-direction: column;
+}
+
+.post-thumbnail-entry{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.other-blogs__img{
+    width: 40%;
+}
+
+.other-blogs__img--wd{
+    width: 100%;
+}
+
+/*----------------------------------------------------İletişim----------------------------------------------------*/
+
+.contact__df{
+    display: flex;
+    justify-content: center;
+}
+
+.contact__container{
+    width: 80%;
+}
+
+.contact__gr{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 50px;
+}
